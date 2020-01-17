@@ -1,1 +1,1 @@
-int sum(int &summa, int &a);
+int sum(int N);
