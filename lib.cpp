@@ -2,14 +2,10 @@
 #include <iostream>
 using namespace std;
 
-int sum(int N)
+int sum(int N, int arr[])
 {
-    int summa;
-    int arr[N];
-    cout << "\nВаш массив: \n";
-    for (int i = 0; i < N; i++) {
-        cin >> arr[i];
-    }
+    int summa=0;
+
     for (int i = 0; i < N; i++)
     {
         int a = arr[i];

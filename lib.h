@@ -1,1 +1,1 @@
-int sum(int N);
+int sum(int N, int arr[]);
